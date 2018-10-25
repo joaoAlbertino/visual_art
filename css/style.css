@@ -5,3 +5,23 @@
 .bg-dark-light{
     background-color: gray;
 }
+
+
+/*CUSTON NAVBAR*/
+.navbar-custom {
+    background-color: red;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: red;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color:red
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #cc0000;
+}
